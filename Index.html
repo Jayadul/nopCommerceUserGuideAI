@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>nopCommerce AI Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9fafb; 
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #1f2937;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #6b7280;
+      animation: fadeInUp 1.5s ease-out;
+    }
+
+    main {
+      flex: 1;
+      padding: 0 20px;
+    }
+
+    .hero {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      animation: fadeInUp 2s ease-out;
+    }
+
+    .hero h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #1f2937;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      color: #6b7280;
+      margin-bottom: 25px;
+    }
+
+    .shape-pattern {
+      width: 100%;
+      height: 80px;
+      background-image: radial-gradient(circle at 50% 50%, rgba(79, 70, 229, 0.05) 0, transparent 50%);
+      background-size: 40px 40px;
+      opacity: 0.5;
+      margin-top: 40px;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #9ca3af;
+      background-color: #f3f4f6;
+      border-top: 1px solid #e5e7eb;
+      margin-top: auto;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .hero h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to nopCommerce AI Assistant</h1>
+    <p>Your intelligent guide for managing e-commerce stores with ease.</p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="hero">
+      <h2>Need Help With nopCommerce?</h2>
+      <p>Our AI-powered assistant is ready to help you with setup, customization, troubleshooting, and more!</p>
+      <p><strong>Just click the floating chat icon in the bottom right corner.</strong></p>
+    </section>
+
+    <!-- Shape Pattern Background -->
+    <div class="shape-pattern"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 nopCommerce Guide. Powered by Odin AI.
+  </footer>
+
+  <!-- ODIN CHATBOT SCRIPTS -->
+
+  <!-- Widget Script - Floating Chat Icon Bottom Right -->
+  <script>
+    window.project_id = "00503636445940478e97f4";
+    window.frame_type = "widget";
+  </script>
+  <script
+    src="https://app.getodin.ai/loader.min.js" 
+    project_id="00503636445940478e97f4"
+    frame_type="widget"
+    defer
+  ></script>
+
+</body>
+</html>
